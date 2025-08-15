@@ -6,21 +6,20 @@
 
 body {
   font-family: Arial, sans-serif;
-  background-color: whitesmoke;
+  background-color: #c9c5c5;
   color: #333;
   line-height: 1.6;
 }
 
 header {
-  background: linear-gradient(to right, navy, teal);
-  color: white;
+  color: #fcfcfc;
   text-align: center;
   padding: 40px 20px;
 }
 
 header h1 {
   font-family: 'Georgia', serif;
-  font-size: 2.5em;
+  font-size: 2.5;
 }
 
 header p {
@@ -30,7 +29,7 @@ header p {
 
 .intro {
   padding: 20px;
-  background-color: white;
+  background-color: #fcfcfc;
   border-radius: 8px;
   margin: 20px;
 }
@@ -45,7 +44,6 @@ header p {
   display: flex;
   justify-content: center;
   gap: 20px;
-  flex-wrap: wrap;
   padding: 20px;
 }
 
@@ -55,24 +53,17 @@ header p {
   width: 250px;
   padding: 15px;
   text-align: center;
-  transition: transform 0.3s ease;
-}
-
-.product:hover {
-  transform: scale(1.05);
-  background-color: lightcyan;
 }
 
 .product img {
   max-width: 100%;
-  border-radius: 5px;
 }
 
 .product h3 {
   color: navy;
-  margin: 10px 0;
+  margin: 10px;
 }
 
 .product p {
-  font-size: 0.9em;
+  font-size: 0.9;
 }
